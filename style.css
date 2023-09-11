@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: url(./background.jpg);
+    background-size: 100vw 100vh;
+    overflow: hidden;
+}
+
+
+splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/splash.jpg);
+    background-size: 100vw 100vh;
+    background-color: black;
+    opacity: 1.0;
+    z-index: 1002;
+    -webkit-app-region: no-drag;
+}
+
+panel {
+    position: absolute;
+    top: 0vh;
+    left: 150vw;
+    width: 25%;
+    height: 30%;
+    border-radius: 0vh;
+    border: inset;
+    outline: none;
+    background: url(images/panel.png);
+    background-size: 100% 100%;
+    opacity: .9;
+    z-index: 1005;
+    -webkit-app-region: no-drag;
+}
+
+settings {
+    position: absolute;
+    top: 2vh;
+    left: 92vw;
+    width: 5vw;
+    height: 6vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/settings.png);
+    background-size: 5vw 6vh;
+    opacity: 0.9;
+    z-index: 1010;
+    -webkit-app-region: no-drag;
+}
+
+#left {
+    position: absolute;
+    left: 10vw;
+    top: 80vh;
+    width: 10vw;
+    height: 15vh;
+    float: left;
+    opacity: 0.9;
+    background-color: transparent;
+    background-size: 10vw 15vh;
+    border-radius: 50%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+#right {
+    position: absolute;
+    left: 80vw;
+    top: 80vh;
+    width: 10vw;
+    height: 15vh;
+    float: right;
+    opacity: 0.9;
+    background-color: transparent;
+    background-size: 10vw 15vh;
+    border-radius: 50%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+#scoreId {
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+    color: white;
+    width: 40%;
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px black;
+}
